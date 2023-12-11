@@ -1,6 +1,6 @@
 # ReplayO: Mark Controls
 Helper program to mark orienteering control points from a paper map, and view them 
-with Strava activity.
+with Strava activity. 
 
 ## Description
 WINDOWS ONLY, NOT TESTED WITH ANYTHING ELSE YET!
