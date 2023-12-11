@@ -1,4 +1,4 @@
-# ReplayO
+# ReplayO Mark Controls
 Displays orienteering activities on map
 
 ## Description
