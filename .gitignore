@@ -1,3 +1,6 @@
-.gitignore
-/strava_api_keys/test.txt
-/strava_api_keys/strava_api_keys_OMA.txt
+__pycache__/*
+__pycache__/
+strava_api_keys/test.txt
+strava_api_keys/strava_api_keys_OMA.txt
+output/*
+output/
