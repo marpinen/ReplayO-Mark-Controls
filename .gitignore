@@ -4,3 +4,5 @@ strava_api_keys/test.txt
 strava_api_keys/strava_api_keys_OMA.txt
 output/*
 output/
+temp/*
+temp/
