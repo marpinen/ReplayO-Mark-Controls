@@ -5,7 +5,7 @@ with Strava activity.
 ## Description
 WINDOWS ONLY, NOT TESTED WITH ANYTHING ELSE YET!
 
-I'm newbie coder and this is my first proper program, I've got a lot to learn.
+I'm newbie coder and this is my first proper program, I've got lot to learn.
 
 Prerequisites:
 You need a Strava account, at least one activity and these API keys: 
