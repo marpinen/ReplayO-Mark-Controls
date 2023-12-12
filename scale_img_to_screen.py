@@ -6,7 +6,6 @@ import pyautogui
 import cv2
 import os
 
-
 sizeMult = 0.9
 
 def scale_image_to_fit_screen(image):
@@ -33,6 +32,8 @@ def scale_image_to_fit_screen(image):
     # Resize image
     if new_height < height:
         resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_AREA)
+    else:
+        resized_image = image
         
     # Define temp directory
     temp_dir = 'temp'
@@ -41,9 +42,10 @@ def scale_image_to_fit_screen(image):
     
     # Filename
     filename = os.path.join(temp_dir, name + '_scaled' + '.png')
-    
+
     # Saving the image
     cv2.imwrite(filename, resized_image)
     
     # Return new name
     return filename
+    
